@@ -1,0 +1,16 @@
+lst = [10,20,30]
+tpl = (10,20,30)
+
+lst[0] = 100
+tpl[0] = 100
+
+print(lst)
+print(tpl)
+
+'''
+OUTPUT : tpl[0] = 100
+    ~~~^^^
+TypeError: 'tuple' object does not support item assignment
+
+
+'''
